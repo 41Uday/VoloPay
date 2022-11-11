@@ -22,6 +22,7 @@ const tabList = [
     {id : 3, text: "Blocked"},
 ]
 
+
 class Home extends Component {
 
     state = {tabId : tabList[1].id}
@@ -60,15 +61,15 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className='card-2-home'>
-                <ul className='h-list-container'>
+                    <ul className='h-list-container'>
                     {tabList.map(eachItem => (
                         <Tabs key={eachItem.id} tabItem={eachItem} buttonTab={this.buttonTab} tabID={tabId} />
                     ))}
-                </ul>
-                <div className='inner-card-2-h'>
-                    <BsFillGridFill className='icon-1' />
-                    <GoThreeBars className='icon-2' />
-                </div>
+                    </ul>
+                    <div className='inner-card-2-h'>
+                        <BsFillGridFill className='icon-1' />
+                        <GoThreeBars className='icon-2' />
+                    </div>
                 </div>
                 <hr className='hr' />
                 {this.allTabsMethods()}

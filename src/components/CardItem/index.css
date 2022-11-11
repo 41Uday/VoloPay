@@ -1,0 +1,65 @@
+.li-item-card {
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    width: 500px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.card-item-card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ci-head-1 {
+    font-size: 26px;
+}
+
+.ci-para-1 {
+    color: gray;
+    font-weight: 500;
+}
+
+.fire-img {
+    height: 50px;
+    width: 50px;
+}
+
+.ci-para-2 {
+    color: gray;
+    font-weight: 500;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.range {
+    height: 10px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: green;
+}
+
+.red {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background-color: red;
+    margin-right: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    font-weight: 500;
+}
+
+.g {
+    background-color: green;
+}
