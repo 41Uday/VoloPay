@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VoloPay/static/css/main.ef7032aa.css",
+    "main.js": "/VoloPay/static/js/main.9214ff92.js",
+    "static/js/787.0420ccf9.chunk.js": "/VoloPay/static/js/787.0420ccf9.chunk.js",
+    "index.html": "/VoloPay/index.html",
+    "main.ef7032aa.css.map": "/VoloPay/static/css/main.ef7032aa.css.map",
+    "main.9214ff92.js.map": "/VoloPay/static/js/main.9214ff92.js.map",
+    "787.0420ccf9.chunk.js.map": "/VoloPay/static/js/787.0420ccf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef7032aa.css",
+    "static/js/main.9214ff92.js"
+  ]
+}
